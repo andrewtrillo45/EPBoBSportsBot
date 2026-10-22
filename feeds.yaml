@@ -150,7 +150,7 @@ channels:
     emoji: "⚽"
     feeds:
       - name: EA Sports FC
-        url: https://news.google.com/rss/search?q=site:ea.com+%22FC+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        url: https://news.google.com/rss/search?q=site:ea.com+-site:forums.ea.com+-site:answers.ea.com+%22FC+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
         include: ["FC 27", "FC27", "EA SPORTS FC", "Ultimate Team"]
       - name: Operation Sports
         url: https://www.operationsports.com/feed/
@@ -165,7 +165,7 @@ channels:
     emoji: "🏟️"
     feeds:
       - name: EA Sports College Football
-        url: https://news.google.com/rss/search?q=site:ea.com+%22College+Football%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        url: https://news.google.com/rss/search?q=site:ea.com+-site:forums.ea.com+-site:answers.ea.com+%22College+Football%22+when:7d&hl=en-US&gl=US&ceid=US:en
         include: ["College Football"]
         exclude: ["Madden"]
       - name: Operation Sports
@@ -183,7 +183,7 @@ channels:
     emoji: "🎮"
     feeds:
       - name: EA Madden NFL
-        url: https://news.google.com/rss/search?q=site:ea.com+%22Madden+NFL+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        url: https://news.google.com/rss/search?q=site:ea.com+-site:forums.ea.com+-site:answers.ea.com+%22Madden+NFL+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
         include: ["Madden"]
         exclude: ["College Football"]
       - name: Operation Sports
