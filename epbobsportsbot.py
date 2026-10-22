@@ -24,7 +24,7 @@ ROOT = Path(__file__).parent
 FEEDS_FILE = ROOT / "feeds.yaml"
 SEEN_FILE = ROOT / "seen.json"
 BOT_NAME = "EPBoBSportsBot"
-KEEP_SEEN_PER_CHANNEL = 400  # how many old story IDs to remember per channel
+KEEP_SEEN_PER_CHANNEL = 1500  # how many old story IDs to remember per channel (busy ones get ~350/day)
 
 COLORS = {"gaming": 0x9B59B6, "sports": 0x1F8B4C}
 USER_AGENT = (
@@ -54,6 +54,19 @@ def normalize_title(title):
     # from two outlets is treated as one.
     t = re.sub(r"\s+-\s+[^-]{2,40}$", "", title or "")
     return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+
+
+def display_title(title, url):
+    # Google News puts " - Outlet Name" on the end; the outlet already shows in the footer.
+    if "news.google.com" in url:
+        return re.sub(r"\s+-\s+[^-]{2,60}$", "", title).strip() or title
+    return title
+
+
+def priority_matcher(words):
+    if not words:
+        return None
+    return re.compile(r"\b(" + "|".join(re.escape(w) for w in words) + r")\b", re.IGNORECASE)
 
 
 def story_id(title):
@@ -205,6 +218,12 @@ def main():
     max_posts = settings.get("max_posts_per_channel_per_run", 4)
     max_age = settings.get("max_age_hours", 24) * 3600
     first_run_posts = settings.get("first_run_posts", 1)
+    max_priority = settings.get("max_priority_posts_per_run", 15)
+    priority_re = priority_matcher(settings.get("priority_keywords", []))
+    priority_cats = set(settings.get("priority_categories", ["sports"]))
+    digest_cats = set(settings.get("roundup_categories", []))
+    digest_size = settings.get("roundup_max_stories", 10)
+    digest_every = settings.get("roundup_every_minutes", 60) * 60
 
     try:
         webhooks = json.loads(os.environ.get("WEBHOOKS", "{}"))
@@ -247,27 +266,81 @@ def main():
                 ts = entry_time(entry)
                 if ts and now - ts > max_age:
                     continue
+                shown = display_title(title, feed["url"])
+                summary = clean_summary(entry.get("summary"))
+                # Skip summaries that just repeat the headline
+                if summary and normalize_title(summary).startswith(normalize_title(shown)[:60]):
+                    summary = ""
+                is_priority = bool(
+                    priority_re
+                    and info.get("category") in priority_cats
+                    and priority_re.search(shown)
+                )
                 fresh[sid] = {
-                    "title": title,
+                    "title": shown,
                     "link": link,
                     "ts": ts or now,
                     "source": feed["name"],
-                    "summary": clean_summary(entry.get("summary")),
+                    "summary": summary,
                     "image": entry_image(entry),
+                    "priority": is_priority,
                 }
 
         # newest first
         stories = sorted(fresh.items(), key=lambda kv: kv[1]["ts"], reverse=True)
-        limit = first_run_posts if first_run else max_posts
-        to_post = stories[:limit]
+        if first_run:
+            to_post = stories[:first_run_posts]
+            held_back = set()
+        else:
+            # Important updates (injuries, trades, signings...) always post, up to a
+            # safety ceiling; anything over the ceiling waits for the next run.
+            prio = [kv for kv in stories if kv[1]["priority"]]
+            normal = [kv for kv in stories if not kv[1]["priority"]]
+            held_back = {sid for sid, _ in prio[max_priority:]}
+            if info.get("category") in digest_cats:
+                # Everything else is bundled into ONE "roundup" message, posted on a
+                # slower timer. Until it's due, those stories wait (not marked seen).
+                to_post = prio[:max_priority]
+                last = seen.setdefault("_roundup", {}).get(channel, 0)
+                if now - last >= digest_every and normal:
+                    roundup = normal[:digest_size]
+                else:
+                    roundup = []
+                    held_back |= {sid for sid, _ in normal}
+            else:
+                to_post = prio[:max_priority] + normal[:max_posts]
+                roundup = []
+            to_post.sort(key=lambda kv: kv[1]["ts"], reverse=True)
+
+        posted = 0
+        if not first_run and roundup:
+            lines = [f"• [{s['title'][:150]}]({s['link']}) — *{s['source']}*" for _, s in roundup]
+            desc = ""
+            for line in lines:
+                if len(desc) + len(line) + 1 > 4000:
+                    break
+                desc += line + "\n"
+            embed = {
+                "title": f"{info.get('emoji', '')} {channel.upper()} Roundup",
+                "description": desc,
+                "color": COLORS.get(info.get("category"), 0x5865F2),
+                "footer": {"text": f"{len(lines)} stories • {BOT_NAME}"},
+                "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            }
+            if post_to_discord(webhook, embed):
+                seen_ids.extend(sid for sid, _ in roundup)
+                seen["_roundup"][channel] = now
+                posted += 1
+            else:
+                held_back |= {sid for sid, _ in normal}
 
         # oldest of the batch goes first so the channel reads in order
-        posted = 0
         for sid, s in reversed(to_post):
+            emoji = "🚨" if s["priority"] else info.get("emoji", "")
             embed = {
-                "title": f"{info.get('emoji', '')} {s['title']}"[:256],
+                "title": f"{emoji} {s['title']}"[:256],
                 "url": s["link"],
-                "color": COLORS.get(info.get("category"), 0x5865F2),
+                "color": 0xE74C3C if s["priority"] else COLORS.get(info.get("category"), 0x5865F2),
                 "footer": {"text": f"{s['source']} • {BOT_NAME}"},
                 "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(s["ts"])),
             }
@@ -281,8 +354,10 @@ def main():
 
         # On the first run, mark everything as seen so old news isn't dumped later.
         # Otherwise, skipped extras (over the cap) are also marked so they don't pile up.
+        # Important stories held back by the ceiling are NOT marked, so they post next run.
+        seen_now = set(seen_ids)
         for sid, _ in stories:
-            if sid not in seen_ids:
+            if sid not in seen_now and sid not in held_back:
                 seen_ids.append(sid)
 
         seen[channel] = seen_ids[-KEEP_SEEN_PER_CHANNEL:]
