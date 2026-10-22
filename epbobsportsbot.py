@@ -224,6 +224,7 @@ def main():
     digest_cats = set(settings.get("roundup_categories", []))
     digest_size = settings.get("roundup_max_stories", 10)
     digest_every = settings.get("roundup_every_minutes", 60) * 60
+    global_exclude = list(settings.get("exclude_keywords", []))
 
     try:
         webhooks = json.loads(os.environ.get("WEBHOOKS", "{}"))
@@ -259,6 +260,10 @@ def main():
                 # Optional keyword filter: only keep stories whose title mentions one of these
                 include = feed.get("include")
                 if include and not any(k.lower() in title.lower() for k in include):
+                    continue
+                # Optional block list: skip titles containing any of these (feed + global)
+                exclude = list(feed.get("exclude", [])) + global_exclude
+                if any(k.lower() in title.lower() for k in exclude):
                     continue
                 sid = story_id(title)
                 if sid in seen_set or sid in fresh:

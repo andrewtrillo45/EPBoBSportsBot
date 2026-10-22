@@ -1,13 +1,15 @@
 # EPBoBSportsBot feed list
 # Each channel key must match a key in your WEBHOOKS secret.
 # To add a source, add another "- name / url" pair under that channel.
-# "Google News" links search Google News; the site: ones pull a single outlet (Fox Sports, AP, RotoBaller, Underdog).
+# "Google News" links search Google News; the site: ones pull a single outlet (Fox Sports, RotoBaller, Underdog).
 # If a source ever stops working, the bot skips it and keeps posting from the others.
 
 settings:
   max_posts_per_channel_per_run: 4   # gaming channels: max separate posts per run
   max_age_hours: 24                  # ignore stories older than this
   first_run_posts: 1                 # on the very first run, only post the newest story per channel
+  # Never post titles containing these (forum threads, stat pages, etc.)
+  exclude_keywords: ["EA Forums", "Forums", "Fortnite Stats", "Broadcast_"]
 
   # 🚨 IMPORTANT UPDATES — sports headlines with any of these words post right away,
   # on their own, in red, no matter how many there are (up to 15 every 5 min).
@@ -96,12 +98,13 @@ channels:
     feeds:
       - name: Call of Duty Blog
         url: https://news.google.com/rss/search?q=site:callofduty.com+-Warzone+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["Season", "Update", "Patch", "Event", "Zombies", "Multiplayer", "Ranked", "Reloaded", "Battle Pass", "Double XP", "Playlist"]
       - name: CharlieIntel
         url: https://news.google.com/rss/search?q=site:charlieintel.com+%22Call+of+Duty%22+-Warzone+when:2d&hl=en-US&gl=US&ceid=US:en
       - name: Google News
-        url: https://news.google.com/rss/search?q=%22Call+of+Duty%22+(%22Black+Ops%22+OR+multiplayer+OR+Zombies+OR+season+OR+update+OR+patch)+-Warzone+when:2d&hl=en-US&gl=US&ceid=US:en
+        url: https://news.google.com/rss/search?q=(%22Call+of+Duty%22+OR+%22Modern+Warfare+4%22)+(multiplayer+OR+Zombies+OR+season+OR+update+OR+patch+OR+ranked)+-Warzone+when:2d&hl=en-US&gl=US&ceid=US:en
       - name: Meta Loadouts
-        url: https://news.google.com/rss/search?q=%22Black+Ops%22+(%22best+loadout%22+OR+%22meta+loadout%22+OR+%22best+class%22+OR+%22meta+guns%22)+-Warzone+when:3d&hl=en-US&gl=US&ceid=US:en
+        url: https://news.google.com/rss/search?q=(%22Call+of+Duty%22+OR+%22Modern+Warfare+4%22+OR+%22Black+Ops%22)+(%22best+loadout%22+OR+%22meta+loadout%22+OR+%22best+class%22+OR+%22meta+guns%22)+-Warzone+when:3d&hl=en-US&gl=US&ceid=US:en
 
   warzone:
     category: gaming
@@ -109,6 +112,7 @@ channels:
     feeds:
       - name: Call of Duty Blog
         url: https://news.google.com/rss/search?q=site:callofduty.com+Warzone+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["Warzone"]
       - name: CharlieIntel
         url: https://news.google.com/rss/search?q=site:charlieintel.com+Warzone+when:2d&hl=en-US&gl=US&ceid=US:en
       - name: Google News
@@ -126,6 +130,7 @@ channels:
         url: https://wardogs.news/rss.xml
       - name: Builds & Tips
         url: https://news.google.com/rss/search?q=WARDOGS+(loadout+OR+build+OR+guide+OR+%22tier+list%22+OR+best)+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["WARDOGS"]
 
   fortnite:
     category: gaming
@@ -133,6 +138,8 @@ channels:
     feeds:
       - name: Fortnite.com
         url: https://news.google.com/rss/search?q=site:fortnite.com+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["Fortnite"]
+        exclude: ["1v1", "Map Code", "Creative", "Island"]
       - name: Google News
         url: https://news.google.com/rss/search?q=Fortnite+(update+OR+patch+OR+season+OR+%22item+shop%22+OR+collab+OR+leak+OR+FNCS)+when:2d&hl=en-US&gl=US&ceid=US:en
       - name: Meta & Builds
@@ -144,6 +151,7 @@ channels:
     feeds:
       - name: EA Sports FC
         url: https://news.google.com/rss/search?q=site:ea.com+%22FC+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["FC 27", "FC27", "EA SPORTS FC", "Ultimate Team"]
       - name: Operation Sports
         url: https://www.operationsports.com/feed/
         include: ["FC 27", "EA Sports FC", "EA FC"]
@@ -158,6 +166,8 @@ channels:
     feeds:
       - name: EA Sports College Football
         url: https://news.google.com/rss/search?q=site:ea.com+%22College+Football%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["College Football"]
+        exclude: ["Madden"]
       - name: Operation Sports
         url: https://www.operationsports.com/feed/
         include: ["College Football"]
@@ -174,6 +184,8 @@ channels:
     feeds:
       - name: EA Madden NFL
         url: https://news.google.com/rss/search?q=site:ea.com+%22Madden+NFL+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
+        include: ["Madden"]
+        exclude: ["College Football"]
       - name: Operation Sports
         url: https://www.operationsports.com/feed/
         include: ["Madden"]
@@ -193,6 +205,7 @@ channels:
         url: https://www.espn.com/espn/rss/nfl/news
       - name: Underdog
         url: https://news.google.com/rss/search?q=site:underdognetwork.com+football+-giveaway+-%22official+rules%22+when:3d&hl=en-US&gl=US&ceid=US:en
+        include: ["NFL", "Football"]
       - name: RotoWire
         url: https://www.rotowire.com/rss/news.php?sport=NFL
       - name: FantasyPros
@@ -203,10 +216,11 @@ channels:
         url: https://www.cbssports.com/rss/headlines/nfl/
       - name: Fox Sports
         url: https://news.google.com/rss/search?q=site:foxsports.com+NFL+when:1d&hl=en-US&gl=US&ceid=US:en
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+NFL+when:1d&hl=en-US&gl=US&ceid=US:en
+        exclude: ["Stats", "Leaders", "Scoring", "Odds", "Schedule", "Standings", "Roster"]
       - name: RotoBaller
         url: https://news.google.com/rss/search?q=site:rotoballer.com+NFL+when:1d&hl=en-US&gl=US&ceid=US:en
+        include: ["NFL News", "Fantasy Football"]
+        exclude: ["College Football", "CFB", "NCAA"]
 
   cfb:
     category: sports
@@ -218,10 +232,9 @@ channels:
         url: https://www.nytimes.com/athletic/rss/college-football/
       - name: CBS Sports
         url: https://www.cbssports.com/rss/headlines/college-football/
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+%22college+football%22+when:1d&hl=en-US&gl=US&ceid=US:en
       - name: RotoBaller
         url: https://news.google.com/rss/search?q=site:rotoballer.com+%22college+football%22+when:2d&hl=en-US&gl=US&ceid=US:en
+        include: ["College Football", "CFB", "NCAA"]
 
   nba:
     category: sports
@@ -231,6 +244,7 @@ channels:
         url: https://www.espn.com/espn/rss/nba/news
       - name: Underdog
         url: https://news.google.com/rss/search?q=site:underdognetwork.com+basketball+-giveaway+-%22official+rules%22+when:3d&hl=en-US&gl=US&ceid=US:en
+        include: ["NBA", "Basketball"]
       - name: RotoWire
         url: https://www.rotowire.com/rss/news.php?sport=NBA
       - name: The Athletic
@@ -239,10 +253,10 @@ channels:
         url: https://www.cbssports.com/rss/headlines/nba/
       - name: Fox Sports
         url: https://news.google.com/rss/search?q=site:foxsports.com+NBA+when:1d&hl=en-US&gl=US&ceid=US:en
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+NBA+when:1d&hl=en-US&gl=US&ceid=US:en
+        exclude: ["Stats", "Leaders", "Scoring", "Odds", "Schedule", "Standings", "Roster"]
       - name: RotoBaller
         url: https://news.google.com/rss/search?q=site:rotoballer.com+NBA+when:1d&hl=en-US&gl=US&ceid=US:en
+        include: ["NBA News", "Fantasy Basketball"]
 
   mlb:
     category: sports
@@ -252,16 +266,16 @@ channels:
         url: https://www.espn.com/espn/rss/mlb/news
       - name: Underdog
         url: https://news.google.com/rss/search?q=site:underdognetwork.com+baseball+-giveaway+-%22official+rules%22+when:3d&hl=en-US&gl=US&ceid=US:en
+        include: ["MLB", "Baseball"]
       - name: RotoWire
         url: https://www.rotowire.com/rss/news.php?sport=MLB
       - name: The Athletic
         url: https://www.nytimes.com/athletic/rss/mlb/
       - name: MLB.com
         url: https://www.mlb.com/feeds/news/rss.xml
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+MLB+when:1d&hl=en-US&gl=US&ceid=US:en
       - name: RotoBaller
         url: https://news.google.com/rss/search?q=site:rotoballer.com+MLB+when:2d&hl=en-US&gl=US&ceid=US:en
+        include: ["MLB News", "Fantasy Baseball"]
 
   nhl:
     category: sports
@@ -275,10 +289,9 @@ channels:
         url: https://www.nytimes.com/athletic/rss/nhl/
       - name: CBS Sports
         url: https://www.cbssports.com/rss/headlines/nhl/
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+NHL+when:1d&hl=en-US&gl=US&ceid=US:en
       - name: RotoBaller
         url: https://news.google.com/rss/search?q=site:rotoballer.com+NHL+when:2d&hl=en-US&gl=US&ceid=US:en
+        include: ["NHL News", "Fantasy Hockey"]
 
   wnba:
     category: sports
@@ -286,8 +299,6 @@ channels:
     feeds:
       - name: Google News
         url: https://news.google.com/rss/search?q=WNBA+when:1d&hl=en-US&gl=US&ceid=US:en
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+WNBA+when:2d&hl=en-US&gl=US&ceid=US:en
 
   tennis:
     category: sports
@@ -295,8 +306,6 @@ channels:
     feeds:
       - name: ESPN
         url: https://www.espn.com/espn/rss/tennis/news
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+tennis+when:1d&hl=en-US&gl=US&ceid=US:en
       - name: Google News
         url: https://news.google.com/rss/search?q=(ATP+OR+WTA)+tennis+when:1d&hl=en-US&gl=US&ceid=US:en
 
@@ -306,7 +315,5 @@ channels:
     feeds:
       - name: ESPN
         url: https://www.espn.com/espn/rss/rpm/news
-      - name: AP Sports
-        url: https://news.google.com/rss/search?q=site:apnews.com+NASCAR+when:2d&hl=en-US&gl=US&ceid=US:en
       - name: Google News
         url: https://news.google.com/rss/search?q=NASCAR+Cup+Series+when:1d&hl=en-US&gl=US&ceid=US:en
