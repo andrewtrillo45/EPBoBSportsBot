@@ -5,7 +5,7 @@
 # If a source ever stops working, the bot skips it and keeps posting from the others.
 
 settings:
-  max_posts_per_channel_per_run: 4   # gaming channels: max separate posts per run
+  max_posts_per_channel_per_run: 20  # max regular posts per channel each run; extras post on the next run (none are skipped)
   max_age_hours: 24                  # ignore stories older than this
   first_run_posts: 1                 # on the very first run, only post the newest story per channel
   # Never post titles containing these (forum threads, stat pages, etc.)
@@ -72,9 +72,8 @@ settings:
     - retirement
     - breaking
 
-  # 📰 ROUNDUP — everything else in sports channels is bundled into ONE message
-  # with clickable headlines, instead of many separate posts.
-  roundup_categories: [sports]
+  # 📰 ROUNDUP (currently OFF) — can bundle non-important stories into one message.
+  roundup_categories: []             # empty = every story posts on its own. Put [sports] here to bundle instead.
   roundup_every_minutes: 60
   roundup_max_stories: 10
 

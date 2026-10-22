@@ -350,6 +350,8 @@ def main():
             else:
                 to_post = prio[:max_priority] + normal[:max_posts]
                 roundup = []
+                # Over the per-run limit? Don't skip them; they post on the next run.
+                held_back |= {sid for sid, _ in normal[max_posts:]}
             to_post.sort(key=lambda kv: kv[1]["ts"], reverse=True)
 
         posted = 0
