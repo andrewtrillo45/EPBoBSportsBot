@@ -151,7 +151,7 @@ channels:
     feeds:
       - name: EA Sports FC
         url: https://news.google.com/rss/search?q=site:ea.com+-site:forums.ea.com+-site:answers.ea.com+%22FC+27%22+when:7d&hl=en-US&gl=US&ceid=US:en
-        include: ["FC 27", "FC27", "EA SPORTS FC", "Ultimate Team"]
+        include: ["FC 27", "FC27", "Ultimate Team", "Pitch Notes", "Title Update"]
       - name: Operation Sports
         url: https://www.operationsports.com/feed/
         include: ["FC 27", "EA Sports FC", "EA FC"]

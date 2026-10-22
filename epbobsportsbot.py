@@ -63,6 +63,37 @@ def display_title(title, url):
     return title
 
 
+EN_WORDS = set("the a an and of to in for on with at by from is are was be will has have new how what why who your you it its this that after vs over best update patch season week game games player players team news out back first get more top".split())
+FOREIGN_WORDS = set((
+    "el la los las del de y en para con por que una uno es son al lo su sus como mas más "     # Spanish
+    "le les des du et un une est pour avec dans sur au aux ce cette qui pas plus "            # French
+    "der die das und ist mit für auf den dem ein eine nicht im zum zur von "                # German
+    "o os da do das dos e em um uma com não para pelo pela no na "                          # Portuguese
+    "il gli della di che per con una sono nel alla "                                        # Italian
+    "besten beste spieler neue alle jetzt bei wie nach oder auch sind wird mejores jugadores nueva nuevo todos cómo "
+    "meilleurs meilleures nouveau nouvelle tous comment melhores jogadores novo nova migliori giocatori nuovo tutti "
+).split())
+LOCALE_IN_URL = re.compile(r"/([a-z]{2})[-_]([a-z]{2})/", re.IGNORECASE)
+
+
+def is_english(title, link=""):
+    """Best-effort check so only English reports get posted."""
+    letters = [c for c in title if c.isalpha()]
+    if letters:
+        non_latin = sum(1 for c in letters if ord(c) > 0x024F)  # Cyrillic, Arabic, Asian scripts, etc.
+        if non_latin / len(letters) > 0.15:
+            return False
+    m = LOCALE_IN_URL.search(link or "")
+    if m and m.group(1).lower() != "en":  # e.g. ea.com/es-es/..., /ru-ru/...
+        return False
+    words = re.findall(r"[a-záéíóúñüàèìòùçâêîôûãõäöß]+", title.lower())
+    foreign = sum(1 for w in words if w in FOREIGN_WORDS)
+    english = sum(1 for w in words if w in EN_WORDS)
+    if foreign >= 2 and foreign > english:
+        return False
+    return True
+
+
 def priority_matcher(words):
     if not words:
         return None
@@ -225,6 +256,7 @@ def main():
     digest_size = settings.get("roundup_max_stories", 10)
     digest_every = settings.get("roundup_every_minutes", 60) * 60
     global_exclude = list(settings.get("exclude_keywords", []))
+    english_only = settings.get("english_only", True)
 
     try:
         webhooks = json.loads(os.environ.get("WEBHOOKS", "{}"))
@@ -256,6 +288,9 @@ def main():
                 title = entry.get("title", "").strip()
                 link = entry.get("link")
                 if not title or not link:
+                    continue
+                # English reports only
+                if english_only and not is_english(title, link):
                     continue
                 # Optional keyword filter: only keep stories whose title mentions one of these
                 include = feed.get("include")
