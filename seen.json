@@ -10,8 +10,8 @@
   "wnba": 1792691961.740906
  },
  "_sleeper": {
-  "nba": 1792691350.0790226,
-  "nfl": 1792691348.2306533
+  "nba": 1792720658.8772473,
+  "nfl": 1792720657.3713748
  },
  "call-of-duty": [
   "ff47141d6265fe29",
@@ -318,7 +318,8 @@
   "0319c78cd553f5e3",
   "4918d8829bfa8252",
   "a23d393aebd2597f",
-  "4c7a8b61dbc09bda"
+  "4c7a8b61dbc09bda",
+  "65ae2613fb2a2f8a"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -392,7 +393,10 @@
   "fdd421ac42c3d745",
   "f567acc2839f4ea5",
   "6e697fb2592e05cb",
-  "f0adb51ed22e8ae3"
+  "f0adb51ed22e8ae3",
+  "b2bc6e79b5a53bdd",
+  "7ee8a1300817ef4e",
+  "71167ea201abb73f"
  ],
  "fortnite": [
   "e36ad4e7d49b95df",
@@ -487,7 +491,9 @@
   "ca66c9085902bd3f",
   "bdde02735da75e70",
   "6f48d83d558c1366",
-  "fa46503c85e9c09e"
+  "fa46503c85e9c09e",
+  "f87b00916a771d18",
+  "64f453f2e2853e38"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -751,7 +757,11 @@
   "9e361637447eb290",
   "e09ed190462ced00",
   "38d95db04edb02ac",
-  "b774d77fed05a9a7"
+  "b774d77fed05a9a7",
+  "8f1506eb6ff868ff",
+  "73c3378a98458a0c",
+  "8073333362d5dc0a",
+  "0a142797c831a302"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -925,7 +935,12 @@
   "86df5f6b6af77be5",
   "b0df923fdd40db21",
   "974a9d06c56ca3ee",
-  "256603d8ba4a957b"
+  "256603d8ba4a957b",
+  "096d902d8d23459c",
+  "4a949cfc668b3d94",
+  "1406c8a4a41f067d",
+  "befae33fa951c232",
+  "653cbdaac1e3eadc"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -1874,7 +1889,8 @@
   "27fe0fb020746bb4",
   "5033095c6a0bd0f5",
   "29aebb54b72172ba",
-  "4c7a8b61dbc09bda"
+  "4c7a8b61dbc09bda",
+  "e375a334b6c1252e"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -2066,7 +2082,11 @@
   "462e7bc76a5d07ec",
   "916bb0e58e877443",
   "b5904792ebddc572",
-  "3f63e8dde1f12522"
+  "3f63e8dde1f12522",
+  "9b0cd5c4a8caaf49",
+  "18e69c24fced0b60",
+  "401bafad44312eec",
+  "ab35380b59eddac4"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -2240,7 +2260,12 @@
   "1871c57928a62865",
   "f7210268b322dcaf",
   "823350379719a1da",
-  "6d8a3caf8eadb7c4"
+  "6d8a3caf8eadb7c4",
+  "5be8a54ca4e5956c",
+  "3f758daa4b8a7d38",
+  "cf85d941ea02e5a5",
+  "cb4484e2a73a6db1",
+  "dd07b9f0a1edcb76"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -2248,7 +2273,8 @@
   "cb11918566522a86",
   "3b73254aaaf1f00d",
   "74f3f3b3833f126a",
-  "411556d8b86960f4"
+  "411556d8b86960f4",
+  "667fa15d7dc990e8"
  ],
  "warzone": [
   "5d4554ea651404c7",
@@ -2525,6 +2551,10 @@
   "62efe120f3601118",
   "c292cc5b91f12c79",
   "f617f10a3d842ed8",
-  "1153c9ab1e1c6cca"
+  "1153c9ab1e1c6cca",
+  "afce5300e4bb929c",
+  "ed3624bce1e0de20",
+  "b557e4027dbe869c",
+  "3346691fb251baa9"
  ]
 }
