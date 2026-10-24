@@ -549,7 +549,8 @@
   "e856131488a337f3",
   "9b354150861e2f3d",
   "5621bb56fe779348",
-  "a5631aaeafc42120"
+  "a5631aaeafc42120",
+  "4d3a338e8f007be3"
  ],
  "fc27": [
   "3dec2e4559394f79",
@@ -1179,7 +1180,9 @@
   "863a87ff7198af67",
   "4dccb64f2d272001",
   "f65adbba60cf4033",
-  "6ca8ad20148a880d"
+  "6ca8ad20148a880d",
+  "3e3b5f0352b5c0f6",
+  "dad25b1903c5a15e"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -1576,7 +1579,11 @@
   "75a05c179af59610",
   "b8ee698e4e87a5bb",
   "41b6431dc2d22e27",
-  "cdfaeb6affa4f42d"
+  "cdfaeb6affa4f42d",
+  "441fb983e24ee46c",
+  "87e05f45d673f6fc",
+  "bc806216566f2790",
+  "b202008083ef96e7"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2410,7 +2417,17 @@
   "4f8759c92ce57c62",
   "baadd5eba7b54a86",
   "83c8b8d9bdfd2db1",
-  "8677c2abd086f2fe"
+  "8677c2abd086f2fe",
+  "c44769fc5fbd9a66",
+  "64e46ca9c210d7ca",
+  "4426c9f0f00d75b0",
+  "20484e0b1f48c78b",
+  "dcefa83cf68dc466",
+  "dea3eac95c9661b0",
+  "8bdd8c22b4fd1fac",
+  "280fc71437f049a6",
+  "8b9658e80b78aaa5",
+  "ca7a4f760ed18aff"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -3508,7 +3525,17 @@
   "f36ffa6847b92a13",
   "fccd52ae4f6498af",
   "41cc7df865542f55",
-  "f59506ff1aa3ec0b"
+  "f59506ff1aa3ec0b",
+  "1072e140781119ed",
+  "aa0b7b1c3d20389a",
+  "3bd85955f0a6e851",
+  "49376b7797abeae3",
+  "dea3eac95c9661b0",
+  "8bdd8c22b4fd1fac",
+  "ddaa0475a90e94af",
+  "c0edd57290fc110c",
+  "531e3bb1cf1fdaca",
+  "aa37045691ef0fbd"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -3791,7 +3818,9 @@
   "75e32d11fce1bdb1",
   "2d54f378a3785a5d",
   "6d58a055c538cf34",
-  "cfa71323fed5389b"
+  "cfa71323fed5389b",
+  "d8f2a0ebb024439e",
+  "736cd2980b8a7abe"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -4241,7 +4270,14 @@
   "4f2ea6d04b750842",
   "ef2286a58c70bfc5",
   "71185b299cbca485",
-  "44a675b7096d3302"
+  "44a675b7096d3302",
+  "40eb995b3cd5c6f3",
+  "0c98d8293d1a2f0b",
+  "152a746217671400",
+  "383b9352b41eed91",
+  "262f3f818f8d580e",
+  "02662a2fad703f14",
+  "a012f7ea290652ff"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -4878,6 +4914,10 @@
   "94b9058324b680f8",
   "dd6a87023b05f33f",
   "6ba84ec3efd3ed38",
-  "ff9b47e16fc9e9ea"
+  "ff9b47e16fc9e9ea",
+  "fd6cd51a358a8c50",
+  "180e78351db05746",
+  "f5c37a7750041fc5",
+  "125c88432c99e60f"
  ]
 }
