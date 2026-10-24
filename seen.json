@@ -591,7 +591,8 @@
   "4eff701a6861180f",
   "0abd4fa4debae230",
   "c8fc9491bd4d4389",
-  "f0312f6c1d0661d4"
+  "f0312f6c1d0661d4",
+  "0be7cc77fa8f66a3"
  ],
  "fortnite": [
   "e36ad4e7d49b95df",
@@ -1082,7 +1083,9 @@
   "ea3b170252a46346",
   "dd60c0fd05ec06fa",
   "a15b168ab23c47dd",
-  "dd2d8bff0559a8d4"
+  "dd2d8bff0559a8d4",
+  "cfa3c5d440484de2",
+  "a4c617c5024c87e3"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -1428,7 +1431,12 @@
   "e32dad115d7315c0",
   "e6dd699cb53a7085",
   "69a6f9719cf2dd8a",
-  "5ae80c43e93f4b8e"
+  "5ae80c43e93f4b8e",
+  "b62c717b54b820d1",
+  "42525403637baa17",
+  "6cbc2b4be31bd02b",
+  "2273f1ec567d9118",
+  "1b76a7ba46681651"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2126,7 +2134,29 @@
   "5af9e0ce7fc9dc14",
   "fc64dd9d4a52f7ce",
   "c8760cf5a16b822e",
-  "2571f65d9d8be207"
+  "2571f65d9d8be207",
+  "3739942f8efaffa6",
+  "6a4e789d45e86f60",
+  "274fbb2825750881",
+  "4de44fda759e8217",
+  "bb259bc428328bc5",
+  "ae8303f26c1b23a7",
+  "c586c21b7a0b001f",
+  "074d2d677cc4a021",
+  "65a1c4f9aca3ad67",
+  "fb109f596ccd3247",
+  "aa46348ae5beab4d",
+  "31364c8d63254c3b",
+  "67704b537408bf60",
+  "ea501a1948da531e",
+  "0af8c516422ca7bd",
+  "2f56892ed10923da",
+  "5a4fcbbffb129955",
+  "db5afea36dc1f252",
+  "c8a922b94ab513a5",
+  "605e6b22db0ab869",
+  "84dfa7e55a0b489c",
+  "a6056d00f1162f42"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -3050,7 +3080,11 @@
   "260006431dd36a6b",
   "f459dee5959279f1",
   "8bc9ffcc10c049ef",
-  "e53922df741b1d4d"
+  "e53922df741b1d4d",
+  "30cd7fd8562d36cb",
+  "0468f321bca63bc0",
+  "97c7ff3d43ac7b7d",
+  "d8ad3669edae7236"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -3630,7 +3664,8 @@
   "d5fae3b72d92fa41",
   "aa03a72e5ecd69a2",
   "59f3c856c1be742e",
-  "d78d0d6525048424"
+  "d78d0d6525048424",
+  "2972d2bfbf66e1bd"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -4153,6 +4188,15 @@
   "a0d22612ddef1c4f",
   "81bb4222177dcae6",
   "5772f76462baaa25",
-  "b8e52983610c9467"
+  "b8e52983610c9467",
+  "dbb7116ba064884d",
+  "4443e4287c6b24e5",
+  "495118dbfe8f7dc4",
+  "d92fcdd08d62def9",
+  "e68d2313dd8fc320",
+  "49abdebb2a552584",
+  "66f9661a5f1558f2",
+  "ff9ded7f43e8d2ff",
+  "ada9d82666f93b05"
  ]
 }
