@@ -463,7 +463,11 @@
   "38135b034411852d",
   "750f8a4419c19efc",
   "acb3d33f5707da07",
-  "4324d795403ffaa4"
+  "4324d795403ffaa4",
+  "daa7a48d26b93fe1",
+  "af27ef0d132920cd",
+  "7f39165942ffd5e7",
+  "4c59c2df373b9d4b"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -812,7 +816,8 @@
   "2bd5c7fa7aca0a1a",
   "39c9beae3f96b383",
   "655d5e85df6b0bda",
-  "9838edcfbb1a9f27"
+  "9838edcfbb1a9f27",
+  "6b1c75fe556d6ab8"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -1547,7 +1552,10 @@
   "655696c600d0673e",
   "c90ef8e78b92809b",
   "63d5cddb2e461a3c",
-  "67918daae7eb7597"
+  "67918daae7eb7597",
+  "b5e4c04615d8a555",
+  "2a379c5f230f84aa",
+  "5c35a99df69179ff"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2370,7 +2378,12 @@
   "72270ebf5e48d6e0",
   "38aa66e2111fd974",
   "665902e242c7e7e9",
-  "f3118e008256b638"
+  "f3118e008256b638",
+  "49ab54c6c09068e9",
+  "251b87299a9fc47e",
+  "3cee041f9d563931",
+  "b298de003abbf71d",
+  "d57a2ba7b588a923"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -3433,7 +3446,19 @@
   "b734b3789196f434",
   "0d477ccff3a5749c",
   "467a83d3727b79e5",
-  "ba08bbbf072ad123"
+  "ba08bbbf072ad123",
+  "251b87299a9fc47e",
+  "3cee041f9d563931",
+  "b298de003abbf71d",
+  "d57a2ba7b588a923",
+  "27bea86a5ad68cb9",
+  "3aaefc33cffa068e",
+  "18b78d21d490151d",
+  "53b823a6dffb6789",
+  "1fdb5c9249ab3cf4",
+  "c324c9af9cf49e9c",
+  "39de73b7bba39241",
+  "a0b5764ac7d4fa62"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -3707,7 +3732,13 @@
   "08ac0206db8e6353",
   "03aa6a2a86c2f20d",
   "73a1c8def0f1c42d",
-  "99facb9193fbb258"
+  "99facb9193fbb258",
+  "ca173f626a7aa4b0",
+  "0cbfc36c2ee5f4b4",
+  "9256268f35d55a1a",
+  "3f9f3c149a397a7b",
+  "5b8ad63361b84d33",
+  "75e32d11fce1bdb1"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -4127,7 +4158,14 @@
   "44972deb00282c4d",
   "8300f84544a1c9e7",
   "c7117cf845e376ea",
-  "9c1da5dabf6c92b1"
+  "9c1da5dabf6c92b1",
+  "839888645c710bd5",
+  "7cdab5da59518bf2",
+  "8378fe07e9617629",
+  "25782af29caa0cc2",
+  "cb565d53dd887b3d",
+  "d1846f813e14d95f",
+  "6067ed9b64924ee5"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -4744,6 +4782,7 @@
   "a1d445100a8e9a97",
   "beb487e00e0dd50e",
   "fc0b8257cd63041e",
-  "6b044834cc1bed12"
+  "6b044834cc1bed12",
+  "de3a36f5706392cc"
  ]
 }
