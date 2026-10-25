@@ -169,7 +169,8 @@
   "d4950c85679a98dc",
   "33acc9cfabc32259",
   "32149fed81e80959",
-  "ac5d128322944fcd"
+  "ac5d128322944fcd",
+  "7f2124807bad3b7e"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -896,7 +897,8 @@
   "bb086a91a4a59d85",
   "c7add4c215974f78",
   "b4bd30ee9d351ac8",
-  "31a50df7e50fff70"
+  "31a50df7e50fff70",
+  "740c5a80dda74072"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -1266,7 +1268,10 @@
   "ad79c0fb4563c0da",
   "7ebffddd1fc217ba",
   "f6be85e9cc31aae9",
-  "a13619eacc9f9fb7"
+  "a13619eacc9f9fb7",
+  "d77b4315ef38697f",
+  "81b6a6adc85352b1",
+  "c6823d1841f8f3ba"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -1767,7 +1772,9 @@
   "42b8c1731ee288de",
   "ab17306b60cad3eb",
   "4cf05145ab81db85",
-  "7edf026dbf885fbb"
+  "7edf026dbf885fbb",
+  "df4419e423f9e2f8",
+  "d28e00aa0432adb2"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2690,7 +2697,17 @@
   "78dc1e153c201ce9",
   "0affdbe64028b5fe",
   "8e40f8e8cb62226c",
-  "19a08c575039a7cd"
+  "19a08c575039a7cd",
+  "c136df4b812e86f8",
+  "84fe6dd03dc64938",
+  "1714c6143315fd9e",
+  "491266a93f7d30df",
+  "24ef659fd38716b8",
+  "310380aef9042ce6",
+  "bcc3f62437448204",
+  "e32e969743dbaa7c",
+  "81b7ee47579f1aca",
+  "c548f005e447b5f3"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -3935,7 +3952,16 @@
   "3df632b0ab0bc025",
   "a55dece80f01630e",
   "0affdbe64028b5fe",
-  "19a08c575039a7cd"
+  "19a08c575039a7cd",
+  "605e6b22db0ab869",
+  "60cdd2325866f5fa",
+  "66283942eaaded9a",
+  "e0d083e67eb97d85",
+  "c1db4dd9208c8fe4",
+  "81224309310c9a94",
+  "c8687a7033cf7dbc",
+  "310380aef9042ce6",
+  "e32e969743dbaa7c"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -4251,7 +4277,11 @@
   "5db82d45306a5534",
   "3c64488877c672dd",
   "eb539f3e5151af3a",
-  "f3819aadb3ba02ec"
+  "f3819aadb3ba02ec",
+  "f6f7e00b157920da",
+  "c0a96e7e552d0461",
+  "8576561e930a99e5",
+  "debb323c455413a9"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -5547,6 +5577,9 @@
   "42b9d7d45bc37c50",
   "c3d33c4d6206afe1",
   "9dd152642ee2004b",
-  "636fe30a71b31f14"
+  "636fe30a71b31f14",
+  "8ebeb3944926ef5f",
+  "2a67ab6a6a9b85c1",
+  "78d111be68153c49"
  ]
 }
