@@ -179,7 +179,8 @@
   "18da31205727ac0e",
   "881dab0fb00cf5d5",
   "28f22b3cd46148b7",
-  "9da236c7ad22d91a"
+  "9da236c7ad22d91a",
+  "80409296d1a30208"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -1834,7 +1835,8 @@
   "509e2bc0e3fad22f",
   "089e8fe1e5dc7b4d",
   "009caed75e50a55b",
-  "47faac9b87837265"
+  "47faac9b87837265",
+  "2e3d5c9ddbdff9bf"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2819,7 +2821,10 @@
   "8aafe5702c5d2e49",
   "a8d83af04285337b",
   "c4d1dc1b3a97d5f7",
-  "f7464c68511c4bdc"
+  "f7464c68511c4bdc",
+  "99efd8dcd7cb4525",
+  "a19f45631da5a8fe",
+  "8438a892cba70a04"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -4128,7 +4133,12 @@
   "311a67fc26a205a8",
   "63d2d6f473d990b2",
   "f7464c68511c4bdc",
-  "b5154ccf30f87f9b"
+  "b5154ccf30f87f9b",
+  "803112353e79a77a",
+  "b0ac0d1abf37b229",
+  "77996663d8dd8d03",
+  "57b324f511d006b7",
+  "0ce511f82eaa4d4a"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -4998,7 +5008,8 @@
   "ac1fd1e3788f9f17",
   "17bbe335382be7f2",
   "5da7ffe0e678dec2",
-  "64339abbfbb6802a"
+  "64339abbfbb6802a",
+  "49b819ac2847fda6"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -5817,6 +5828,9 @@
   "bcabc34f4a2d3624",
   "d33678af11813c42",
   "9a386387dd0278e5",
-  "7d0627acd84cb84d"
+  "7d0627acd84cb84d",
+  "4bfe2321f26e6ac3",
+  "49a456aca7927571",
+  "7e2078cce1eac0de"
  ]
 }
