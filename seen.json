@@ -176,7 +176,8 @@
   "b005b042e57dceb5",
   "3ccb43aeadedb51a",
   "be5ffdaa6f6ab776",
-  "18da31205727ac0e"
+  "18da31205727ac0e",
+  "881dab0fb00cf5d5"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -1307,7 +1308,9 @@
   "fd1b68234a32151b",
   "cb63a416b6abad0a",
   "aaa2f45be22ecf75",
-  "8cba8927dceb961b"
+  "8cba8927dceb961b",
+  "15710d885e539b43",
+  "f1f82a74e790c944"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -2802,7 +2805,12 @@
   "faa571325ce27f0c",
   "1fa7100aa6354268",
   "dc436c88f816d24d",
-  "8a88ecf2c185b686"
+  "8a88ecf2c185b686",
+  "3db237e776f165ab",
+  "bcfa7a6d79f8f120",
+  "1d2ba3d0fb7a34f3",
+  "6122d4bd762c17af",
+  "8aafe5702c5d2e49"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -4106,7 +4114,9 @@
   "86e8919884351454",
   "dec5968f87f10871",
   "4fdaf8f8e97aa9be",
-  "03e9725e453e1ed1"
+  "03e9725e453e1ed1",
+  "b9fa5dc73b503e0c",
+  "311a67fc26a205a8"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -4963,7 +4973,13 @@
   "98eb6d9cd3d5b040",
   "477cc2f95e89f189",
   "f43375f2ebf36302",
-  "4c1eb5dd3395c809"
+  "4c1eb5dd3395c809",
+  "37fdda42660a2f02",
+  "a91fdfaf63d6ad9e",
+  "4902cc1858be5772",
+  "6aae9875a34e6feb",
+  "f1fcab45ea816f7f",
+  "165d9fd627cd5842"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -5779,6 +5795,9 @@
   "c0a5c6988ff5e566",
   "c8b72f5f71cd621f",
   "882f7f9d5515851c",
-  "bcabc34f4a2d3624"
+  "bcabc34f4a2d3624",
+  "d33678af11813c42",
+  "9a386387dd0278e5",
+  "7d0627acd84cb84d"
  ]
 }
