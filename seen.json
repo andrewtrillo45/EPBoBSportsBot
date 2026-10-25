@@ -174,7 +174,8 @@
   "0c5371daa6e0af20",
   "8d6e54c363e1a1e9",
   "b005b042e57dceb5",
-  "3ccb43aeadedb51a"
+  "3ccb43aeadedb51a",
+  "be5ffdaa6f6ab776"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -1291,7 +1292,8 @@
   "84bf999a85e04ed7",
   "7bfc0b48574d2197",
   "fa1af33a2f9bd1f4",
-  "e99755e0b6e145f6"
+  "e99755e0b6e145f6",
+  "8fbe4f2a32d23fba"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -1804,7 +1806,9 @@
   "b1a3ba8bc451cfce",
   "762eb9b04593e6b7",
   "926906d605cb8771",
-  "4c73ecee78e18c3b"
+  "4c73ecee78e18c3b",
+  "487056d3841769ea",
+  "b7f594d9fa656b82"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -2763,7 +2767,13 @@
   "75d749593e951579",
   "fdfeaea7f949a94b",
   "ddf658e337044afc",
-  "b9769d0cebc381a2"
+  "b9769d0cebc381a2",
+  "a4f46cc9d8126491",
+  "9263ba7b316dbc8f",
+  "f4ba1f9413d81c0d",
+  "c5fe2c943fdd91a6",
+  "07620f716bd5edf0",
+  "710e82941b7df91c"
  ],
  "nfl": [
   "d7e7ddab144c300e",
@@ -4048,7 +4058,14 @@
   "2ba7bc91d53ad2e5",
   "61895771c09e86cf",
   "1393ac5aa9f127a5",
-  "40089138ac71077b"
+  "40089138ac71077b",
+  "c80bee6735e95e56",
+  "13d946caafb56e52",
+  "4d41852ff06188d8",
+  "c29465c38f71a132",
+  "c8c92c6c201f3100",
+  "828bf2059aa38d13",
+  "9a057cd8504f3a2b"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -4369,7 +4386,9 @@
   "c0a96e7e552d0461",
   "8576561e930a99e5",
   "debb323c455413a9",
-  "0ddcfbc1d7561ded"
+  "0ddcfbc1d7561ded",
+  "ef687b2917716f65",
+  "bd8fac881fcc4f80"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -5690,6 +5709,10 @@
   "6f8d7f89798bed77",
   "58d39c71d2222882",
   "2fbc9e393d44da74",
-  "9ba10008a7442fa3"
+  "9ba10008a7442fa3",
+  "abfa9374e14be3e8",
+  "8b94c6dd19350341",
+  "64edc884907dc96e",
+  "aa6be5d1f7aeeec5"
  ]
 }
