@@ -1046,7 +1046,8 @@
   "ce8edd33eb27ba7c",
   "ddb7cc92434921ab",
   "77c45ffc02b7afa0",
-  "849fe0ed3ee624f6"
+  "849fe0ed3ee624f6",
+  "1987f23ab10b0905"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -2127,7 +2128,17 @@
   "531b12b3e3214449",
   "6f97bdab2a72362a",
   "621306a567647e55",
-  "c4dc5e0a73230a3c"
+  "c4dc5e0a73230a3c",
+  "1ac263035cc54577",
+  "c5d1f42f49fb41ae",
+  "1bbe7f52edd34ea1",
+  "15a663f7ff4c5f5a",
+  "5baad16db6824f36",
+  "3bd0e7547c6edb92",
+  "f582d207ea78e999",
+  "777a5d7e5efd2359",
+  "3cfc29deb4a0392f",
+  "8ce9d3fdca82ccaa"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -3237,24 +3248,14 @@
   "6efb40a3ea6ccde9",
   "1de575d994a29c5a",
   "92fe4bd4de27de60",
-  "57e048446f629c34"
+  "57e048446f629c34",
+  "efa59f0ade53e39d",
+  "30cd31ee763c6f86",
+  "670b233296436cc6",
+  "014cb76fead7abe0",
+  "92b5101c30059bf2"
  ],
  "nfl": [
-  "75a189830018686d",
-  "67dfe537829bad2f",
-  "ad4b74463914c827",
-  "7af7a5d6222d8d90",
-  "158b978c6fc45b5c",
-  "d7371b85a42b2b70",
-  "8fa8cd8d72f497b2",
-  "975445ca370e92f5",
-  "a4e3954586f0f721",
-  "00b54ee86e468e66",
-  "273e44a0e00168be",
-  "83354f5c68cf2e27",
-  "d8e0bfe1378cf4a7",
-  "a1e1330bd5240b60",
-  "d291cf37bee84fb6",
   "b0cb95e3ba416aee",
   "30e6d492b91d33d7",
   "88dc9843b5dd3939",
@@ -4739,7 +4740,22 @@
   "e21fddffdc75f99c",
   "392c41cb6b78d066",
   "0b0fed7a7d24870c",
-  "e49d027a8bc68ef4"
+  "e49d027a8bc68ef4",
+  "e94a5d3ccb4959a7",
+  "2591be7f7fa257b9",
+  "9840a1b706f33359",
+  "56ab2e333ebfe099",
+  "d9fda19b74544838",
+  "df0d7b10118c57c6",
+  "07a5819ded24d9c7",
+  "0b365fb3a97eaeae",
+  "14d44da003bbd9b9",
+  "e516aa6bc788f8e4",
+  "2562859f9f594f86",
+  "8eaeb926d328a3e8",
+  "1b5fb51be43878c0",
+  "040fcb3f9c3d636c",
+  "f7c6ae37f3b36328"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -5796,7 +5812,9 @@
   "6b14826f62bbaf0f",
   "9ea659ffbc8a288c",
   "51ecab7d86316ee7",
-  "8dedb5457de4844b"
+  "8dedb5457de4844b",
+  "d71f0699c6606b5b",
+  "f1d43b4e5d682458"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -6734,6 +6752,10 @@
   "c171099719b456eb",
   "5d74e10c9cac3eb9",
   "378d1bf2d4f0fdf0",
-  "773b1c2f42d7adf7"
+  "773b1c2f42d7adf7",
+  "0db2b5a8c14bf390",
+  "9017f4b029b98290",
+  "c19b5967729b0fe6",
+  "42c1706291ec0117"
  ]
 }
