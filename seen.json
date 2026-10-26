@@ -1647,7 +1647,9 @@
   "55b205a962c59377",
   "08de6c7710e1821b",
   "bcd2ba3d7571a2cd",
-  "2ac879d8f5e0d5dd"
+  "2ac879d8f5e0d5dd",
+  "c6ef50dcc68ec488",
+  "2129cfb60ddb0cea"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -2438,7 +2440,12 @@
   "81ec45c04ba1bf9e",
   "5e95fb9fce4f4370",
   "b5f7dbf2a6a50df8",
-  "7fa903cff55323fd"
+  "7fa903cff55323fd",
+  "86d111258bfe3e05",
+  "ea364a95650658cb",
+  "f54a24c92d4719d6",
+  "f0b20191263f55e3",
+  "f2304f1c22007fb9"
  ],
  "nba": [
   "84bada7f5c43e272",
@@ -3712,17 +3719,17 @@
   "c6604b956daf38b5",
   "cf48204d2d1360b8",
   "08446b5265320e71",
-  "e87c6352ea06fb1c"
+  "e87c6352ea06fb1c",
+  "96b3b53557b7e420",
+  "044dbfee8d0ac766",
+  "607568404af9aaee",
+  "55aba894711a7a65",
+  "8a2270440df4108d",
+  "fa15f3e77ee9dd5b",
+  "4a0ebacdcb9b6951",
+  "5c474dcc7d4fd42a"
  ],
  "nfl": [
-  "4c05fdf8c1d9ad23",
-  "4dbc72aa65975ee7",
-  "27fe0fb020746bb4",
-  "5033095c6a0bd0f5",
-  "29aebb54b72172ba",
-  "4c7a8b61dbc09bda",
-  "e375a334b6c1252e",
-  "a0e6b1cafe7943a8",
   "0501807043d9b4a5",
   "858537c0f96b14ce",
   "703263288cc180c2",
@@ -5214,7 +5221,15 @@
   "56c5b40fc5e20b4a",
   "0322c67cf8541567",
   "b14a996d4d087805",
-  "fb6f0d8a1994f124"
+  "fb6f0d8a1994f124",
+  "d9a8d7e38f50a7d6",
+  "9abe411da54f71b4",
+  "c7e7947cff7a3490",
+  "2817971451f40b1c",
+  "61ebacce62fe048b",
+  "c61f336b7efd0e46",
+  "00008c2fbff9f590",
+  "c3ebb93838154927"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -5611,7 +5626,8 @@
   "4eaa341f35f6d685",
   "bba7bf5c5893ef9c",
   "b99a1ad62540ee30",
-  "ee62d0b38ab60c3d"
+  "ee62d0b38ab60c3d",
+  "5fab41242a323a8d"
  ],
  "tennis": [
   "e0cfbfa3a9777806",
@@ -6430,7 +6446,9 @@
   "809cd1fc9e6b8e77",
   "fda301877b2ce246",
   "2302d3b11d07e234",
-  "eea52715564e6907"
+  "eea52715564e6907",
+  "ac1382bc4dc4b1eb",
+  "6859268f3f8a18b6"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -7613,6 +7631,11 @@
   "cb223a2da717aae9",
   "aee14942a86a1d1e",
   "423be3842b9d9fa3",
-  "3c4c9a19cbee8431"
+  "3c4c9a19cbee8431",
+  "6b0f009dc7b65836",
+  "6ba9c705a8deefe2",
+  "e65e82179ca5bc20",
+  "bbf017d0076314e5",
+  "3347ea9f55796ef6"
  ]
 }
