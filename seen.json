@@ -265,7 +265,10 @@
   "02cbba360afc1c7c",
   "c8b37b821799daed",
   "48f0ebaa46f37c0f",
-  "4858ddbe0cb9e950"
+  "4858ddbe0cb9e950",
+  "c8dcf5d4ad95d3c3",
+  "2ccbf464befc5612",
+  "d33a73862ac493d6"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -688,7 +691,9 @@
   "08d960575abc05eb",
   "a2f789aa5599401e",
   "336e6c13185561c1",
-  "9932f31120296dd3"
+  "9932f31120296dd3",
+  "4c4ad578c76af657",
+  "bbb22469cd697552"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -977,7 +982,9 @@
   "0c6f9cc4d45e663b",
   "0e4ad45f8e4c260f",
   "071463ed448f6374",
-  "38cef27c06ea1744"
+  "38cef27c06ea1744",
+  "65e45225ac600551",
+  "5a3e047a5c3b39ca"
  ],
  "fortnite": [
   "e36ad4e7d49b95df",
@@ -1776,7 +1783,9 @@
   "0d5e21489aab9660",
   "5a28c98af1ad8333",
   "7fce2fcb140721cc",
-  "2b8cd61d9567caae"
+  "2b8cd61d9567caae",
+  "cb161d6259569084",
+  "19190c4ae82f38bd"
  ],
  "nascar": [
   "d42bbdb11df6874f",
@@ -4086,15 +4095,11 @@
   "5eb1d2dc1e534898",
   "5dfc619c39c04fd9",
   "c6248ad0f88aa572",
-  "9ec2c83e3faafcd3"
+  "9ec2c83e3faafcd3",
+  "f1dcd052eec71de6",
+  "52b169a1affc9941"
  ],
  "nfl": [
-  "054f13ab08bc71e9",
-  "461ee7cc8a2e9fc7",
-  "482e8145bff625b1",
-  "ca6f829ee8ae500d",
-  "e63b957536ccc5b8",
-  "f273f2174cd22aba",
   "f1540a8f294e40e9",
   "45ea322322afec4f",
   "77fd34e0a4cd6a28",
@@ -5588,7 +5593,13 @@
   "6449b76908414f7d",
   "324ab6042cc97e0a",
   "336e6c13185561c1",
-  "10a9d64860b985df"
+  "10a9d64860b985df",
+  "40a9f26d025fed6b",
+  "94fa4092e87c10f7",
+  "c016cade901c7e31",
+  "aaa000f8f0fd7e81",
+  "33777b8f5003c250",
+  "4865732959fcb040"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -6893,7 +6904,10 @@
   "8b52207c66381e79",
   "1ec967fc2d209b18",
   "9fd642caa3b2671c",
-  "df87ba02e649da9a"
+  "df87ba02e649da9a",
+  "6a504f5e8732341b",
+  "11cbd87cebab2aa2",
+  "04ed8e5800bb6596"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -6957,7 +6971,9 @@
   "ecd3a2f658af7bbb",
   "885a0213f6e4a4e5",
   "52109d5d890e09e9",
-  "73cb299ce03f4d8d"
+  "73cb299ce03f4d8d",
+  "880ae14c24daf389",
+  "bd8eb3e84bb218ff"
  ],
  "wnba": [
   "76c86ed639455845",
@@ -8236,6 +8252,12 @@
   "7129d618dd48761a",
   "98e83b821b208628",
   "aa0a0780fc5e89dc",
-  "2eabc70b3364cd7b"
+  "2eabc70b3364cd7b",
+  "7894e304f82df5a7",
+  "54a3a6769015c4ea",
+  "30b5cfb006a226c0",
+  "2fd2c4a8c97ade82",
+  "f45fb36ad4ce79b6",
+  "aa8fca81ea59215b"
  ]
 }
