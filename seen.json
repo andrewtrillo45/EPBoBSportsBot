@@ -657,7 +657,8 @@
   "a414928e2c72bfde",
   "92f04bc9ebcb006f",
   "85ca9e50667ab542",
-  "909abfbe0f317fc7"
+  "909abfbe0f317fc7",
+  "d01fbf45ad84db11"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -1687,7 +1688,12 @@
   "d8a9c65600d2248a",
   "90a9e7c957b92593",
   "a9f43296db0e3dd3",
-  "38afef788bb9a0db"
+  "38afef788bb9a0db",
+  "4320a7a7e660390e",
+  "822c2a1624b742a7",
+  "f849fa825a695d16",
+  "98da5d6806f02468",
+  "8d4f9702f4dadc33"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -3480,7 +3486,8 @@
   "52574f33646ba15f",
   "dd648c152b4fc796",
   "ca787f33c7a1f067",
-  "a4ca7513f7ea6e25"
+  "a4ca7513f7ea6e25",
+  "563e0f8bcd3bca14"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -4571,13 +4578,12 @@
   "915a3f259176be9b",
   "0d0f12ff9fbc5516",
   "872afe2d8f5d0848",
-  "a65b3c89ace0c523"
+  "a65b3c89ace0c523",
+  "a4fee3976a5a02f9",
+  "c49b3ea72c253077",
+  "d9eff5f5fbcac32a"
  ],
  "nascar": [
-  "325cabcfb73ed5b1",
-  "b5d68aa58b2b4473",
-  "afff464151e4548c",
-  "e74f64f63c07b428",
   "29aac547991590ab",
   "2b07d80e0f4022fc",
   "0ec69e6eea966c38",
@@ -6073,28 +6079,13 @@
   "0a27cfce3801407b",
   "08a864c5268c6bb8",
   "1e6320a647efffab",
-  "666ee384022f9d7d"
+  "666ee384022f9d7d",
+  "1da6b81167b9c239",
+  "568e8f35504af06b",
+  "efb39f16308ca0b2",
+  "7df4981378926aee"
  ],
  "nba": [
-  "94cad26e6f6dbb09",
-  "aeb12384c2b0866d",
-  "3e5319abddd73aa7",
-  "053b914756c03e29",
-  "aef7331c5cb769b9",
-  "e6b59319860e49c5",
-  "ec1f719f9801897e",
-  "dc18ebeaac7194cb",
-  "c995954587d407c1",
-  "6940c26090f312e6",
-  "3d1ad6cfabadbe52",
-  "f22c4f1e45cec0f1",
-  "e53922df741b1d4d",
-  "0b6ac3fdc37047bf",
-  "4be9fb1d589ccce5",
-  "c90eb14a42ed84b6",
-  "5786b6d645d78801",
-  "eb1ae423e2e4548f",
-  "d326b36ccba1b988",
   "e5ca1477f9039d6e",
   "3e97e832c93327a8",
   "f3e4ee540f128d78",
@@ -7575,20 +7566,28 @@
   "cceeb26249055ff0",
   "f0850d0be3a8ab94",
   "a6cc49d3dc6f7242",
-  "2c6d266809a67ec5"
+  "2c6d266809a67ec5",
+  "4aae95ce5fe6ad83",
+  "32bd943a682708de",
+  "1697d521fffa978e",
+  "dc26ff4ee0b85df3",
+  "9035ed5f4f1cdf8d",
+  "da4b0be82df11e12",
+  "7e75186fbe6ed7a6",
+  "1226c7514297a66d",
+  "ca15cbe21f108dc0",
+  "ab153101efd51eae",
+  "f18019485aec5a2e",
+  "8cbb8321830ae2ff",
+  "95cd936069b766eb",
+  "7e40ac74ca50dd8b",
+  "68b231b2b034480c",
+  "34b2d9ec975123ee",
+  "6460c38783693fe6",
+  "6c498ade3402ad6f",
+  "cc0014920e202bba"
  ],
  "nfl": [
-  "571545cfcd4dab2b",
-  "07f819e91435b2ef",
-  "767d89168823031b",
-  "c691cb739f4ced17",
-  "3e62dccfe460d379",
-  "8bfd8fea688692a0",
-  "43dc5668f99bd0af",
-  "262b089b3fd6806a",
-  "64552cfe28085a09",
-  "da94d28dd84a93a3",
-  "aa8f1aecae273594",
   "96891eb6739192f8",
   "f0a5247d11601b77",
   "6eecfb2a0386644f",
@@ -9077,7 +9076,18 @@
   "7479b55ff461ab07",
   "40858940b73a800e",
   "003e1cab92e92048",
-  "9bed5c0c81212c5d"
+  "9bed5c0c81212c5d",
+  "cc635f388bcaa569",
+  "ed94739499ca301b",
+  "62b7660fe9537c60",
+  "f6b0f5d506c6dd9d",
+  "acd8a5f09d814c2f",
+  "14fcfebd8a4eb1a9",
+  "69d91515af5b4795",
+  "bbd28b9b7f836c10",
+  "52dbbe63f048523c",
+  "7e40ac74ca50dd8b",
+  "110b77692e52bd92"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -10108,13 +10118,10 @@
   "200dccdaaa9edccb",
   "a970cf3e57562785",
   "7598dd0b811f954c",
-  "ec5ef939412b2f35"
+  "ec5ef939412b2f35",
+  "0b395ec247681bfb"
  ],
  "tennis": [
-  "6e6d2e6a8c875cab",
-  "da63900a8f90fcb7",
-  "2372360615f6fcde",
-  "efa0dbabaf7585aa",
   "511ab8759fc8ef98",
   "d6af784b1f5dcfee",
   "6e1bc9ac5092bf4a",
@@ -11610,7 +11617,11 @@
   "f154303f1ec769bb",
   "a07eaf3a46225894",
   "fb2a0e15b5031625",
-  "7b5563ab61ae6a09"
+  "7b5563ab61ae6a09",
+  "b00af4a3cb118011",
+  "087c545291043c5a",
+  "cc42c41ce84a4d04",
+  "2e7687a42a336a4b"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -11907,12 +11918,6 @@
   "de6edffb93746e87"
  ],
  "wnba": [
-  "d537a31fec3f6015",
-  "e58a0a57448e6d0b",
-  "17d1401033d892db",
-  "8414d3410d8cc3f8",
-  "f1e6f0266f937d56",
-  "6e11cf81b8bf2af7",
   "eb1f0de21675e58f",
   "ed3eda8c549bffa6",
   "16970af31e599743",
@@ -13406,6 +13411,12 @@
   "4051d1ef502fbb9b",
   "fb1ae4edc4f30520",
   "2316a58dcd748b35",
-  "8635414c8d0f889c"
+  "8635414c8d0f889c",
+  "d70e435f30d7ffde",
+  "e339bbba26fb4854",
+  "e97ea4185519e02e",
+  "219351f7ee385057",
+  "edfa99b08ff46faf",
+  "84eeb2725d9ba5e0"
  ]
 }
