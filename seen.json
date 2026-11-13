@@ -2062,7 +2062,8 @@
   "fbe2594b9d2d494d",
   "dfcd5119deca1a0a",
   "cc592f8cc5a6124c",
-  "60b801b316201910"
+  "60b801b316201910",
+  "097a0d4af22fd2e0"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -2479,7 +2480,8 @@
   "c2062edf81c56750",
   "b6879f38ca9a4d73",
   "021fdeea747d6bc8",
-  "3deb771096b9191b"
+  "3deb771096b9191b",
+  "0ec3d69c942d150f"
  ],
  "fc27": [
   "3dec2e4559394f79",
@@ -5651,8 +5653,6 @@
   "e503a04c448b5024"
  ],
  "nascar": [
-  "af9e2fda861b5e86",
-  "bbc06ddbf88d39d2",
   "3a45552ee9b966c0",
   "4ea19a0c6713be61",
   "108b824680caf364",
@@ -7150,11 +7150,11 @@
   "323a82aab8c2674b",
   "40bb63e3af7f82c1",
   "7c7b5ffd6b7ed2ff",
-  "93ed291682acf735"
+  "93ed291682acf735",
+  "633a4582fc4048aa",
+  "2ecc49db4e2e1359"
  ],
  "nba": [
-  "0df7c21b63629ac5",
-  "bc172cbcdf093709",
   "c9b81db9def65ebf",
   "549887b95283e041",
   "cbc1c5bba83629b8",
@@ -8652,10 +8652,11 @@
   "6697edf82fd25334",
   "d86be60f5f85d0cb",
   "68697fd61b71268b",
-  "7f356e9f15b48df9"
+  "7f356e9f15b48df9",
+  "358fd4bed0284234",
+  "fffb556ece4bbedb"
  ],
  "nfl": [
-  "7de90baf134c52ae",
   "ca8826a22eae020e",
   "c239578c00be246f",
   "0655ee2e18ddc459",
@@ -10154,7 +10155,8 @@
   "8816e024234bc7a3",
   "e4c05c75853dae56",
   "6123ad4e00d2bfc1",
-  "e49819dfcb8fe5bb"
+  "e49819dfcb8fe5bb",
+  "73c3c0f892115306"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -11451,10 +11453,6 @@
   "c9d20eda6aa8e0ba"
  ],
  "tennis": [
-  "3ba44fe2653b7d2e",
-  "fd776fbf14b2ef83",
-  "44f82a0b9de69e63",
-  "58a040df7f1d2920",
   "badfcc7b356314dc",
   "3c1f135d4e796261",
   "aa8ede9c0076c797",
@@ -12950,7 +12948,11 @@
   "7987a83bec1d351d",
   "939b77c8bc534f14",
   "fea1a1db03c1a375",
-  "71c327d69720e884"
+  "71c327d69720e884",
+  "9ba0eb43ff761daf",
+  "659f6a69cb4cd727",
+  "cb2d8a5ca528af46",
+  "df1e94dc92225ec3"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -13345,9 +13347,6 @@
   "b6333420490c009c"
  ],
  "wnba": [
-  "f8d57fe8caab0ec7",
-  "b65422e2d931889d",
-  "0b024df6b1523c2a",
   "ea1e22edd0116d60",
   "ab2e77feacd9b45c",
   "15af993624cc606d",
@@ -14844,6 +14843,9 @@
   "daf3b6bebd242dff",
   "9d39d4f240388d86",
   "a2dbca5099969123",
-  "0cc3c0e44b619c21"
+  "0cc3c0e44b619c21",
+  "aaef99e68b7a634b",
+  "fc8ea459efce18a0",
+  "da4bc86e776cf635"
  ]
 }
