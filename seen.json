@@ -2146,7 +2146,8 @@
   "d8674c97f6feeee4",
   "d79700111726d109",
   "e91ca247128e05db",
-  "373b8c708b5cbe0c"
+  "373b8c708b5cbe0c",
+  "b991b0c147fa0d51"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -4515,7 +4516,8 @@
   "c8d2333b2692b497",
   "28b601d046b87fe3",
   "48c31b2553dbcaeb",
-  "3b55e4daa681ac13"
+  "3b55e4daa681ac13",
+  "f9f44551c888ff6a"
  ],
  "mlb": [
   "4eba254a7c0e8e42",
@@ -5855,10 +5857,10 @@
   "a45ac53f1317b4ee",
   "d696fdaa4e29213a",
   "8da9c81b175040c2",
-  "3b87fe223e125ce2"
+  "3b87fe223e125ce2",
+  "165bb39d9885afe5"
  ],
  "nascar": [
-  "a53af1ade45652bc",
   "f3d85d2adc018d33",
   "1cf19df4e057ef8f",
   "b9abb0567449bf8c",
@@ -7357,14 +7359,10 @@
   "22049820732e6f44",
   "96936093e30e5a3f",
   "5a57ce26377685ad",
-  "75dcc7fe069dc370"
+  "75dcc7fe069dc370",
+  "34aca988e6d87a5e"
  ],
  "nba": [
-  "762f35d66e923b1e",
-  "fa341935ec6bfb5e",
-  "fc6c1d98cec55a46",
-  "ff252d0619ec99bf",
-  "3770e5245d83cf3d",
   "cc04d59a9b07e2f5",
   "c4d1dc1b3a97d5f7",
   "c5491d4096b3043e",
@@ -8859,34 +8857,14 @@
   "93142c334e7bf189",
   "a640630bb42ed19a",
   "b4ee569fea44330c",
-  "5360e43c1bb36413"
+  "5360e43c1bb36413",
+  "54b5eb9150467185",
+  "31484d7b9a85dad4",
+  "743c36e636f77c63",
+  "a4fa1395ccaf2ca7",
+  "280c2510610ad672"
  ],
  "nfl": [
-  "0abcc5376e9db410",
-  "d6466c7c251a361f",
-  "640d273529bba41f",
-  "bee01c767611d785",
-  "dac06a56e02f7d83",
-  "8a9909e2c825916e",
-  "134bd3a2ce31b682",
-  "37e5e8108e524460",
-  "356ed275883fd5c4",
-  "4f2b8d63e7b67025",
-  "54403373a8b75f28",
-  "b7bdaa03a5cfa56c",
-  "532440025f06cc85",
-  "ad4f849cdef16864",
-  "df11a060be2477cf",
-  "393d1e8db1568ad4",
-  "5c6d332cabd89bc2",
-  "85d69b4b631c5d33",
-  "816c91e90d8c0343",
-  "dc62d06697a03741",
-  "73c892d2d2e2c663",
-  "d0fd2e7e9e9fcd92",
-  "1640e9ef4fbf3fb4",
-  "feceabe4e4a20157",
-  "ffacc8a4c174a3d9",
   "1ac77ef559aee326",
   "07b5141ede3dbb1b",
   "6367211e5a99472f",
@@ -10361,7 +10339,32 @@
   "1a88a6ad77d361ca",
   "79bf2a8d60aef125",
   "b9b7d016ac6a04ed",
-  "1d74cbb223849dca"
+  "1d74cbb223849dca",
+  "adf3f79b095db948",
+  "ce86d69b0a58a512",
+  "5af7a59451656c88",
+  "2b41a736c106ffc4",
+  "42fd3d41b51edd80",
+  "5f199dc0be4a5ccc",
+  "29762066f25e3b75",
+  "dd0f013ed9a8ede5",
+  "c7546867de7fac09",
+  "3e649882ff3f69ba",
+  "40fb84cdfe3f1bf3",
+  "ff43a3c343ccc83d",
+  "ca69ba7a41a5f1e1",
+  "3aad25d72922fa8a",
+  "e642021a8861d8ef",
+  "470f435734234078",
+  "7ae28395aac4152a",
+  "2a5bfe6b6468a15e",
+  "db93c1b72b4e2d90",
+  "36f111238479c64f",
+  "eac142ea6c1fbc76",
+  "2eb9900d68050edf",
+  "08520a57cc23f086",
+  "150beecac10d6d03",
+  "c40ffcd39adaa1eb"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -11704,13 +11707,14 @@
   "9e5215a625e0e6ed",
   "e58f2b53525bd726",
   "434c36f3429e242f",
-  "a0ee7d85a7eb59e4"
+  "a0ee7d85a7eb59e4",
+  "f9021c864d1aa3fe",
+  "2630d08e9b14c008",
+  "365eedd4fad0f56f",
+  "3d82fb84345eb9ae",
+  "2e78bcecb0bf4a97"
  ],
  "tennis": [
-  "037b72d55a3d180a",
-  "2d3b0e7296df3fd6",
-  "d9acb6f66c133324",
-  "295e2c8f2d4c6952",
   "38caa9d87e79cd00",
   "bccdf7828170b948",
   "a9afe70a9a1cd1d2",
@@ -13206,7 +13210,11 @@
   "17cfd005d679abc4",
   "5c3412fc4e0d8a0e",
   "5f942cb459f3b465",
-  "309ab8ca6a8c3552"
+  "309ab8ca6a8c3552",
+  "c3f2a815a4155184",
+  "cdd7c025fd8543d5",
+  "9b24423def8c9cd7",
+  "e6334bac732d6500"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -13616,9 +13624,6 @@
   "2921dab540d309b0"
  ],
  "wnba": [
-  "f958329e816a2f9f",
-  "4ce058bc440d6d9d",
-  "e357c6f114a4ac92",
   "ebaaf9b28a803a23",
   "70b3bfaa1e0007d3",
   "2035bc133b3d8dff",
@@ -15115,6 +15120,9 @@
   "5b98a245dff4c950",
   "f86b45b8f6954ad6",
   "9515dac881fe1e9c",
-  "ee32a88564bbe346"
+  "ee32a88564bbe346",
+  "78f8f00552067903",
+  "133c37e62b2516be",
+  "4577b6a09ee1e1e2"
  ]
 }
