@@ -793,7 +793,9 @@
   "7f6c8eb9cb6414f7",
   "ba0909cebb508d8c",
   "9460d8361b37c7e5",
-  "3d96c98ae20eaf0e"
+  "3d96c98ae20eaf0e",
+  "a85331e627a28ba0",
+  "36851f39794b8c9e"
  ],
  "cfb": [
   "4eba254a7c0e8e42",
@@ -2155,7 +2157,10 @@
   "5c702b567cfa1ca5",
   "19c41d7178099b72",
   "070419fc6833ca1a",
-  "69293d729760ac5b"
+  "69293d729760ac5b",
+  "34fcb58afccc22fb",
+  "4b1aded92a1bea2d",
+  "3e405f588dea3211"
  ],
  "college-football-27": [
   "ed7ec990212c7743",
@@ -3107,7 +3112,8 @@
   "a6a4a61f5a7866dc",
   "c59e1fb2ff449daf",
   "dd9a4441c8b1a2a0",
-  "e8baee11f450e4e3"
+  "e8baee11f450e4e3",
+  "c7af39685cc52bf4"
  ],
  "fortnite": [
   "e36ad4e7d49b95df",
@@ -4415,7 +4421,8 @@
   "1e0e28e953fa439c",
   "cce2daab34122f3e",
   "225201a5bf1c0e31",
-  "fde96671f85c134b"
+  "fde96671f85c134b",
+  "375b91364ccf32eb"
  ],
  "madden": [
   "7005e65cb9b53232",
@@ -5876,7 +5883,6 @@
   "d0955a6af8b0e6ee"
  ],
  "nascar": [
-  "ac1104239be4db9e",
   "e2383a44e5651449",
   "d87ce7bfe96c279d",
   "6ab2352296f845ea",
@@ -7375,16 +7381,10 @@
   "bffa9657bb95c9e7",
   "e2df2a24a25028b0",
   "d7a2b261fbdc3beb",
-  "7e72b4ea4964b9fb"
+  "7e72b4ea4964b9fb",
+  "3717b89e74e7dee4"
  ],
  "nba": [
-  "625e8883e89422ec",
-  "eeb80925ff83d738",
-  "43c96609505a2dbc",
-  "3f941c65daf9a353",
-  "0f10c859f2373c27",
-  "1ee6073e93817288",
-  "d9bd8c07d6bec165",
   "576b3721f2a90ef5",
   "57a2b3787df9e3f4",
   "a09925d6eed4800e",
@@ -8877,27 +8877,16 @@
   "9f2e0d6a06c299ed",
   "66a3100fd0ac70e8",
   "775680117fab92ef",
-  "a1c3a1fa7e84ea5e"
+  "a1c3a1fa7e84ea5e",
+  "a1d48a356611133c",
+  "ae6474d54704a9ac",
+  "01c6384ff8667bef",
+  "83ed7f684f57d604",
+  "704ba56f121a99a4",
+  "9c9542f85c50f601",
+  "cfd30ddc17f0f0a6"
  ],
  "nfl": [
-  "9e5e7e505045e8c4",
-  "1f6e84f55ae4f932",
-  "c2e9d56c12507b72",
-  "15d8857ef5a95195",
-  "b633fba3bdc98919",
-  "b529f828a2b24067",
-  "359dda61ee76a177",
-  "e2a55338051564ad",
-  "6faf0ca2f7de583b",
-  "accb6a44fd11a0dc",
-  "5c8e1f90a9e41bcd",
-  "814385c79cb00498",
-  "379a86ee65f705bc",
-  "7ccde3215ee7e37e",
-  "ad55bfde83235651",
-  "b2de05b67d5479e2",
-  "6a9c927a8d7d2503",
-  "4bab7a81fcdb6ebc",
   "aee8bbacec8ac994",
   "3f37c2b98318639f",
   "f02bfcced13c1375",
@@ -10379,7 +10368,25 @@
   "491499a351c6153b",
   "7f7d25e86eaacef3",
   "e023ef14c1b3742c",
-  "78df05b385336cb5"
+  "78df05b385336cb5",
+  "4fe31a7ac5418f32",
+  "65927e4417f83fcb",
+  "aa63083876c95426",
+  "12f1841175d452da",
+  "19cee1058ab3fe29",
+  "5c86071b1d40c10d",
+  "95d4a48bf20f3ab4",
+  "ce5d34abd595865c",
+  "cc14c0d3042faca0",
+  "23374f6bedd795fa",
+  "775680117fab92ef",
+  "99c55db76d4c6ee0",
+  "c9cc5da97fe80faa",
+  "f7f5b29efee56e7a",
+  "6f06e751239a31ae",
+  "ebc5e5b321112abf",
+  "a5c8e50c236833ab",
+  "179c58b868f414f1"
  ],
  "nhl": [
   "4eba254a7c0e8e42",
@@ -11744,18 +11751,11 @@
   "1bd2edc714014350",
   "14844edcee0fce29",
   "539fa693c6d0f9c9",
-  "bf3952038a81ece5"
+  "bf3952038a81ece5",
+  "6b21222bd6c2cdda",
+  "9e36d563aebb3042"
  ],
  "tennis": [
-  "cc3ce56f0fadfcd9",
-  "0cd9420f5bae14b8",
-  "13829a5c7cdabb1a",
-  "ce908d00d919dd7e",
-  "f4ac115264ca46bb",
-  "c8082e477c49e5c1",
-  "9b5374e61b9c2911",
-  "e38e5955dda6b0d8",
-  "595053e5465b7b8f",
   "3c096f2cae3ea05e",
   "f8cf79ac33480551",
   "248903d500da4ea1",
@@ -13246,7 +13246,16 @@
   "2e95ef188fd697cc",
   "1e91f6d4ef590c95",
   "23d5e60b277ae788",
-  "41667c4be98d61fc"
+  "41667c4be98d61fc",
+  "d801e1bc68f50af6",
+  "f348db2e5d93d86a",
+  "acb3d5b3f7add265",
+  "3f41face2001761c",
+  "8e4a2573fac481eb",
+  "de2558f7c95d6a61",
+  "6f33953ca6ea2ae8",
+  "c2ff7382823297b6",
+  "f75b1ea9696f87b8"
  ],
  "wardogs": [
   "e114de39afb01554",
@@ -13658,10 +13667,6 @@
   "4b60fd3cbb9bc459"
  ],
  "wnba": [
-  "1601d33216b24390",
-  "52b94c5df13d80c4",
-  "af58ef45e6b18a23",
-  "f4f71cb9684483e5",
   "b49cfa33c16081a0",
   "00f77e57c5947ceb",
   "6b7ac552a95d9254",
@@ -15157,6 +15162,10 @@
   "70e2883490cf60ac",
   "fbd167eeb530d5fb",
   "8b03f3b68647cdbb",
-  "871f52dfeb5c8f01"
+  "871f52dfeb5c8f01",
+  "74e211bb1ca174e6",
+  "8e63dd247787409e",
+  "76d7cfcaef5076fd",
+  "353bb7fa3eda86c6"
  ]
 }
